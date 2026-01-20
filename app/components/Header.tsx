@@ -9,10 +9,10 @@ const Header = () =>  {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const menuItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Inicio', href: '#home' },
+    { label: 'Acerca de', href: '#about' },
+    { label: 'Proyectos', href: '#projects' },
+    { label: 'Contacto', href: '#contact' },
   ];
 
   const handleMenuClick = (href: string) => {
