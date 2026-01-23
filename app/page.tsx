@@ -1,11 +1,15 @@
-import Header from "./components/Header";
+import About from "./components/About";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects/Projects";
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
-      <Header />
       <Hero />
+      <About />
+      <Projects />
     </main>
   );
 }
+
+export default Home;
