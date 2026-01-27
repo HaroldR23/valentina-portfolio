@@ -23,7 +23,7 @@ const About = () => {
                 viewport={{ once: true }}
                 className="text-[#C8A553] text-sm tracking-[0.3em] mb-4"
               >
-                01 — ACERCA DE NOSOTROS
+                01 — ACERCA DE MI
               </motion.p>
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ const About = () => {
                 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
-                Filosofía de diseño
+                Diseño de interiores | Decoración & 3D 
               </motion.h2>
             </div>
 
@@ -44,17 +44,16 @@ const About = () => {
               className="space-y-6 text-[#2A2825]/80 leading-relaxed"
             >
               <p className="text-lg">
-                En VA RO DESIGN creemos que un diseño interior excepcional 
-                nace del equilibrio armonioso entre forma y función, sofisticación y comodidad.
+                VA RO DESIGN es mi marca personal que como diseñadora de interiores en formación, cursando segundo y tercer 
+                año de la carrera busco ofrecer soluciones de diseño innovadoras y personalizadas para espacios residenciales y comerciales.
               </p>
               <p>
-                Nuestro enfoque se basa en crear espacios atemporales que reflejen la personalidad y 
-                el estilo de vida únicos de cada cliente, manteniendo al mismo tiempo un compromiso 
-                inquebrantable con la excelencia estética y la integridad arquitectónica.
+                Me enfoco en diseño conceptual, decoración y visualización 3D, desarrollando
+                 propuestas funcionales y estéticas para proyectos residenciales y comerciales.
               </p>
               <p>
-                Cada proyecto es un viaje cuidadosamente planificado, en el que se combinan materiales naturales, 
-                detalles refinados y un profundo conocimiento de la dinámica espacial para crear entornos que inspiran y perduran.
+                Trabajo de manera remota o presencial a través de asesorías, e-design y visualizaciones, 
+                acompañando cada proyecto con una mirada sensible y consciente del uso del espacio. 
               </p>
             </motion.div>
 
