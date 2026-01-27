@@ -84,9 +84,21 @@ const Header = () =>  {
               transition={{ delay: 0.4 }}
               className="absolute bottom-12 left-0 right-0 flex justify-center space-x-6 text-sm tracking-widest text-[#A89F91]"
             >
-              <span>INSTAGRAM</span>
+              <a 
+                href='https://www.instagram.com/varo.portfolio?utm_source=qr&igsh=MTRwbzB6azIybzltdA=='
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                INSTAGRAM
+              </a>
               <span>·</span>
-              <span>PINTEREST</span>
+              <a 
+                href='https://www.linkedin.com/in/valentina-rodriguez-rubio-98a7b8233/'
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                LINKEDIN
+              </a>
             </motion.div>
           </motion.div>
         )}
