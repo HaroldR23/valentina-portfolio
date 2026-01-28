@@ -12,6 +12,7 @@ const Header = () =>  {
     { label: 'Inicio', href: '#home' },
     { label: 'Acerca de', href: '#about' },
     { label: 'Proyectos', href: '#projects' },
+    { label: 'Servicios', href: '#services' },
     { label: 'Contacto', href: '#contact' },
   ];
 
@@ -98,6 +99,14 @@ const Header = () =>  {
                 rel="noopener noreferrer"
               >
                 LINKEDIN
+              </a>
+              <span>·</span>
+              <a 
+                href='https://pin.it/5iQfxMLSG'
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                PINTEREST
               </a>
             </motion.div>
           </motion.div>

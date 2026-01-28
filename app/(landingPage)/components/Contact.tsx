@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Mail, Instagram, MapPin } from 'lucide-react';
+import { Mail, Instagram, MapPin, Linkedin } from 'lucide-react';
 import Image from 'next/image';
 
 const Contact = () => {
@@ -37,9 +37,9 @@ const Contact = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-12 mb-16"
+          className="grid md:grid-cols-4 gap-12 mb-16"
         >
-          <div className="text-center md:text-left">
+          <div className="text-center">
             <div className="inline-flex items-center justify-center w-12 h-12 mb-4 border border-[#C8A553]/30">
               <Mail className="w-5 h-5 text-[#C8A553]" />
             </div>
@@ -51,23 +51,35 @@ const Contact = () => {
               hello@varodesign.com
             </a>
           </div>
-
-          <div className="text-center md:text-left">
-            <div className="inline-flex items-center justify-center w-12 h-12 mb-4 border border-[#C8A553]/30">
-              <Instagram className="w-5 h-5 text-[#C8A553]" />
-            </div>
-            <h3 className="text-lg mb-2 tracking-wide">Instagram</h3>
+          <div className="text-center ">
             <a
               href="https://www.instagram.com/varo.portfolio?utm_source=qr&igsh=MTRwbzB6azIybzltdA=="
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/70 hover:text-[#C8A553] transition-colors"
             >
-              @varo.portfolio
+              <div className="inline-flex items-center justify-center w-12 h-12 mb-4 border border-[#C8A553]/30">
+                <Instagram className="w-5 h-5 text-[#C8A553]" />
+              </div>
+              <h3 className="text-lg mb-2 tracking-wide">Instagram</h3>
+                @varo.portfolio
             </a>
           </div>
-
-          <div className="text-center md:text-left">
+          <div className="text-center ">
+            <a
+              href="https://www.linkedin.com/in/valentina-rodriguez-rubio-98a7b8233/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70 hover:text-[#C8A553] transition-colors"
+            >
+              <div className="inline-flex items-center justify-center w-12 h-12 mb-4 border border-[#C8A553]/30">
+                <Linkedin className="w-5 h-5 text-[#C8A553]" />
+              </div>
+              <h3 className="text-lg mb-2 tracking-wide">Linkedin</h3>
+                Valentina Rodriguez
+            </a>
+          </div>
+          <div className="text-center ">
             <div className="inline-flex items-center justify-center w-12 h-12 mb-4 border border-[#C8A553]/30">
               <MapPin className="w-5 h-5 text-[#C8A553]" />
             </div>

@@ -1,3 +1,4 @@
+import Contact from "./(landingPage)/components/Contact";
 import Header from "./(landingPage)/components/Header";
 import "./globals.css";
 
@@ -11,6 +12,7 @@ export default function RootLayout({
       <body>
         <Header />
           {children}
+        <Contact />
       </body>
     </html>
   );

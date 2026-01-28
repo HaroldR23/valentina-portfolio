@@ -1,3 +1,4 @@
+import { Box, Camera, Home, LayoutGrid, Lightbulb, Palette } from "lucide-react";
 import { ProjectData } from "../props";
 
 export const projects: ProjectData[] = [
@@ -65,5 +66,38 @@ export const projects: ProjectData[] = [
       '/parque_9.jpeg',
       '/parque_10.jpeg',
     ],
+  },
+];
+
+export const services = [
+  {
+    icon: Home,
+    title: 'Asesorías decorativas online',
+    description:
+      'Asesoramiento personalizado a distancia para optimizar tus espacios, resolver dudas y potenciar el estilo de tu hogar.',
+  },
+  {
+    icon: LayoutGrid,
+    title: 'Diseño conceptual de interiores (E-design)',
+    description:
+      'Desarrollo integral del concepto del espacio, combinando funcionalidad y estética según tus necesidades y estilo.',
+  },
+  {
+    icon: Palette,
+    title: 'Moodboards y paleta de color',
+    description:
+      'Creación de moodboards visuales y selección de paletas cromáticas que transmiten la identidad y atmósfera del proyecto.',
+  },
+  {
+    icon: Box,
+    title: 'Visualización 3D | Renders',
+    description:
+      'Modelado y renders realistas que permiten visualizar el diseño final antes de llevarlo a la realidad.',
+  },
+  {
+    icon: Camera,
+    title: 'Home staging visual',
+    description:
+      'Preparación visual de espacios para resaltar su potencial y aumentar su atractivo en ventas o alquileres.',
   },
 ];
